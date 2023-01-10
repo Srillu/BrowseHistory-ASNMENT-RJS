@@ -1,0 +1,55 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+.icons-names {
+  display: flex;
+  flex-direction: row;
+}
+* {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #64748b;
+}
+.time {
+  margin-top: 0px;
+}
+.app-icon {
+  height: 20px;
+  width: 20px;
+}
+.icon-and-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.icon-names {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #475569;
+  font-size: 12px;
+  margin-left: 8px;
+  margin-top: 0px;
+}
+.delete-icon-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.delete-icon {
+  height: 15px;
+  width: 15px;
+}
+.button {
+  background-color: hsl(0, 0%, 100%);
+  border-width: 0px;
+  display: flex;
+  justify-content: flex-send;
+}
+.domain-name {
+  margin-top: 0px;
+  margin-left: 5px;
+}
